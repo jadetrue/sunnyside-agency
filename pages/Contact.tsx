@@ -1,14 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import Layout from "../components/layout";
 
 const Contact = (): JSX.Element => {
     return (
-        <>
-            <Head>
-                <title>Contact</title>
-            </Head>
-            {/* <ContactPage /> */}
-        </>
+        <Layout siteTitle="Contact">
+            <></>
+        </Layout>
     );
 };
 

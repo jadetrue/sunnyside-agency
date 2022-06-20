@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+/* font-family: 'Barlow', sans-serif;
+ font-family: 'Fraunces', serif; */
+
+* {
+    font-size: 18px;
+}

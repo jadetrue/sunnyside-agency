@@ -1,14 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import Layout from "../components/layout";
 
 const Services = (): JSX.Element => {
     return (
-        <>
-            <Head>
-                <title>Services</title>
-            </Head>
-            {/* <ServicesPage /> */}
-        </>
+        <Layout siteTitle="Services">
+            <>Services</>
+        </Layout>
     );
 };
 

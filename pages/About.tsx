@@ -1,14 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import Layout from "../components/layout";
 
 const About = (): JSX.Element => {
     return (
-        <>
-            <Head>
-                <title>About</title>
-            </Head>
-            {/* <AboutPage /> */}
-        </>
+        <Layout siteTitle="About">
+            <></>
+        </Layout>
     );
 };
 
