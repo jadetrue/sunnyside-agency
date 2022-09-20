@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Footer from "./Footer";
 import Navigation from "./Navigation";
 
 export interface Props {
@@ -9,7 +10,7 @@ export interface Props {
 
 const Layout: React.FC<Props> = ({siteTitle, children}) => {
     return (
-        <div className="container">
+        <div>
             <Head>
                 <link
                     rel="icon"
@@ -25,6 +26,7 @@ const Layout: React.FC<Props> = ({siteTitle, children}) => {
                 <title>{siteTitle}</title>
             </Head>
             <main>{children}</main>
+            <Footer />
         </div>
     );
 };
